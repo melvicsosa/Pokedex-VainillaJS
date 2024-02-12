@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles and Links -->
+    <link rel="icon" href="./favicons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Main JS & CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/03f06c1add.js" crossorigin="anonymous"></script>
+    <script defer src="./js/main.js"></script>
+
+    <title>Pokedex v1.0</title>
+</head>
+<body>
+    <main>
+        <section class="poke-left">
+            <img src="#" alt="pokemon" class="pokemon__sprite">
+
+            <h1 class="pokemon__data">
+                <span class="pokemon__number">?</span> -
+                <span class="pokemon__name">???</span>
+            </h1>
+            
+            <form class="form">
+                <input type="search" name="poke-search" class="input__search" id="search" placeholder="Name or Number" required>
+            </form>
+
+            <div class="buttons">
+                <div class="button btn-prev"><i class="fa-solid fa-chevron-left"></i> Prev</div>
+                <div class="button btn-next">Next <i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+        </section>
+        
+        <section class="poke-right">
+            <div class="pokedex__screen">
+                <p class="screen-text"></p>
+            </div>
+            <div class="pokemon__screen_lower">
+                <span class="weight">wewe</span>
+                <span class="height">3232</span>
+            </div>
+            <div class="function__buttons">
+                <div class="fn-button btn-sound"><i class="fa-solid fa-volume-mute"></i>
+            </div>
+        </section>
+        <img src="./images/pokedex_full.png" alt="pokedex" class="pokedex">
+        <img src="./images/background-01.gif" alt="background" class="background-img">
+    </main>
+</body>
+</html>
